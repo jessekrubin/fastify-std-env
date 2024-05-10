@@ -1,6 +1,4 @@
-@jsse/ts-template
-
-quick-maths
+@jsse/fastify-std-env
 
 The MIT License (MIT)
 

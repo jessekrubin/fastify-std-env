@@ -4,14 +4,21 @@
 
 ![NPM Version](https://img.shields.io/npm/v/%40jsse%fastify-std-env?style=flat-square&logo=npm&color=blue&cacheSeconds=60)
 
+Decorates fastify instance with [std-env](https://github.com/unjs/std-env)
+
 `fastify` + `std-env` = `@jsse/fastify-std-env`
 
 ## Install
 
 ```bash
-npm install @jsse/fastify-std-env
+# pnpm
 pnpm add @jsse/fastify-std-env
+# npm if you live in the middle-ages
+npm install @jsse/fastify-std-env
+# yarn which is no longer very hip
 yarn add @jsse/fastify-std-env
+# bun if youre part of gen-z
+bun add @jsse/fastify-std-env
 ```
 
 ## USAGE
