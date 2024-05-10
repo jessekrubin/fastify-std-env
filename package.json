@@ -1,0 +1,65 @@
+{
+  "name": "@jsse/fastify-std-env",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "fastify + std-env",
+  "author": "jessekrubin <jessekrubin@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "std-env",
+    "fastify",
+    "fastify-plugin"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build-fast": "tsup",
+    "build": "tsup --dts",
+    "check": "eslint . && prettier --check .",
+    "fmt": "prettier --write .",
+    "fmtc": "prettier --check .",
+    "lint": "eslint .",
+    "test": "vitest --run",
+    "cov": "vitest --coverage",
+    "tsc": "tsc -p tsconfig.json",
+    "prepack": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "fastify": "^4.0.0"
+  },
+  "dependencies": {
+    "fastify-plugin": "^4.0.0",
+    "std-env": "^3.7.0"
+  },
+  "devDependencies": {
+    "@jsse/eslint-config": "^0.1.12",
+    "@jsse/tsconfig": "^0.0.2",
+    "@types/node": "^20.12.8",
+    "@vitest/coverage-v8": "^1.5.3",
+    "eslint": "^8.57.0 && <9.0.0",
+    "fastify": "^4.27.0",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "tsx": "^4.8.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vitest": "^1.5.3"
+  }
+}
