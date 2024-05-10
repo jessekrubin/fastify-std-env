@@ -5,6 +5,14 @@
   "description": "fastify + std-env",
   "author": "jessekrubin <jessekrubin@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/jessekrubin/fastify-std-env#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessekrubin/fastify-std-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jessekrubin/fastify-std-env/issues"
+  },
   "keywords": [
     "std-env",
     "fastify",
