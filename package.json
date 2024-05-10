@@ -1,24 +1,20 @@
 {
-  "name": "@jsse/quick-maths",
+  "name": "@jsse/fastify-std-env",
   "type": "module",
   "version": "0.0.1",
-  "description": "quick-maths",
+  "description": "fastify + std-env",
   "author": "jessekrubin <jessekrubin@gmail.com>",
   "license": "MIT",
   "keywords": [
-    "jawascript",
-    "typescript"
+    "std-env",
+    "fastify",
+    "fastify-plugin"
   ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    },
-    "./fetty-wap-const": {
-      "types": "./dist/fetty-wap-const.d.ts",
-      "import": "./dist/fetty-wap-const.js",
-      "require": "./dist/fetty-wap-const.cjs"
     },
     "./package.json": "./package.json"
   },
