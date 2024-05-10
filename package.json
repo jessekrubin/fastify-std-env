@@ -41,12 +41,12 @@
     "prepack": "npm run build",
     "typecheck": "tsc --noEmit"
   },
+  "peerDependencies": {
+    "fastify": "^4.0.0"
+  },
   "dependencies": {
     "fastify-plugin": "^4.0.0",
     "std-env": "^3.7.0"
-  },
-  "peerDependencies": {
-    "fastify": "^4.0.0"
   },
   "devDependencies": {
     "@jsse/eslint-config": "^0.1.12",

@@ -2,10 +2,7 @@ import Fastify from "fastify";
 import { expect, test } from "vitest";
 import { FastifyStdEnv } from "../index.js";
 
-// const { test } = require('node:test')
-// const assert = require('node:assert')
-
-test("should register the correct decorator", async (t) => {
+test("should register the correct decorator", async () => {
   const app = Fastify();
   await app.register(FastifyStdEnv);
 
@@ -16,7 +13,7 @@ test("should register the correct decorator", async (t) => {
   expect(app.stdenv).toBeDefined();
 });
 
-test("should have stdenv.isTest as true", async (t) => {
+test("should have stdenv.isTest as true", async () => {
   const app = Fastify();
   await app.register(FastifyStdEnv);
 
