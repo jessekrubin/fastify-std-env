@@ -2,7 +2,7 @@
 
 <!-- https://shields.io/badges/npm-version -->
 
-![NPM Version](https://img.shields.io/npm/v/%40jsse%fastify-std-env?style=flat-square&logo=npm&color=blue&cacheSeconds=60)
+![NPM Version](https://img.shields.io/npm/v/%40jsse%2Ffastify-std-env?style=flat-square&logo=npm&color=blue&cacheSeconds=60)
 
 Decorates fastify instance with [std-env](https://github.com/unjs/std-env)
 
