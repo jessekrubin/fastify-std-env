@@ -19,8 +19,8 @@ importers:
         specifier: ^0.1.12
         version: 0.1.14(eslint@8.57.0)(typescript@5.4.5)(vitest@1.6.0)
       '@jsse/tsconfig':
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^0.0.3
+        version: 0.0.3
       '@types/node':
         specifier: ^20.12.8
         version: 20.12.12
@@ -777,8 +777,8 @@ packages:
       - vue-eslint-parser
     dev: true
 
-  /@jsse/tsconfig@0.0.2:
-    resolution: {integrity: sha512-pcanJSk5XfgzwOjlJFnn8qNa17D+Mw1GDJKHfr0KMUYUU8u7MGa9+cj9COcKUWQX1DvKG0Sbohs1rIcS82nRVw==}
+  /@jsse/tsconfig@0.0.3:
+    resolution: {integrity: sha512-SmASwM7MCmiEnjCgW4Ru94guR9DGHXB7zx/1octWYuQE62UljK4tXHYJ+/XS+Blr6KDHkYWJEewhoAuWYSJExA==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true

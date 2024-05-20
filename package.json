@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@jsse/eslint-config": "^0.1.12",
-    "@jsse/tsconfig": "^0.0.2",
+    "@jsse/tsconfig": "^0.0.3",
     "@types/node": "^20.12.8",
     "@vitest/coverage-v8": "^1.5.3",
     "eslint": "^8.57.0 && <9.0.0",
