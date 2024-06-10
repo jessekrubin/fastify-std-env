@@ -41,7 +41,7 @@ importers:
         version: 8.1.0(postcss@8.4.38)(typescript@5.4.5)
       tsx:
         specifier: ^4.9.4
-        version: 4.13.0
+        version: 4.15.1
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -4078,12 +4078,12 @@ packages:
       - ts-node
     dev: true
 
-  /tsx@4.13.0:
-    resolution: {integrity: sha512-kNY70P2aLMdVBii1Err5ENxDhQ6Vz2PbQGX68DcvzY2/PWK5NLBO6vI7lPr1/2xG3IKSt2MN+KOAyWDQSRlbCA==}
+  /tsx@4.15.1:
+    resolution: {integrity: sha512-k/6h17jA1KfUR7SpcteOa880zGmF56s8gMIcSqUR5avyNFi9nlCEKpMiHLrzrqyARGr52A/JablmGey1DEWbCA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
-      esbuild: 0.20.2
+      esbuild: 0.21.4
       get-tsconfig: 4.7.5
     optionalDependencies:
       fsevents: 2.3.3
