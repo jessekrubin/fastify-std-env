@@ -60,7 +60,7 @@
     "@jsse/eslint-config": "^0.1.12",
     "@jsse/tsconfig": "^0.0.3",
     "@types/node": "^20.12.8",
-    "@vitest/coverage-v8": "^1.5.3",
+    "@vitest/coverage-v8": "^2.0.2",
     "eslint": "^8.57.0 && <9.0.0",
     "fastify": "^4.27.0",
     "prettier": "^3.2.5",
@@ -68,7 +68,7 @@
     "tsx": "^4.9.4",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
-    "vitest": "^1.5.3"
+    "vitest": "^2.0.2"
   },
   "publishConfig": {
     "access": "public"
