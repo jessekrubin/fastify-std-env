@@ -19,8 +19,8 @@ importers:
         specifier: ^0.1.12
         version: 0.1.21(eslint@8.57.0)(typescript@5.5.4)(vitest@1.6.0(@types/node@20.14.12))
       '@jsse/tsconfig':
-        specifier: ^0.0.3
-        version: 0.0.3
+        specifier: ^0.1.0
+        version: 0.1.0
       '@types/node':
         specifier: ^20.12.8
         version: 20.14.12
@@ -627,8 +627,8 @@ packages:
       tailwind:
         optional: true
 
-  '@jsse/tsconfig@0.0.3':
-    resolution: {integrity: sha512-SmASwM7MCmiEnjCgW4Ru94guR9DGHXB7zx/1octWYuQE62UljK4tXHYJ+/XS+Blr6KDHkYWJEewhoAuWYSJExA==}
+  '@jsse/tsconfig@0.1.0':
+    resolution: {integrity: sha512-OL+JVs/3nX/tpjZAitLdpohlHQiCDcSodXGmnAEsnohJHSWn73ICaZg7ZRLjNJU/ntbFeBrZA7qQArCaMeHMKw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3025,7 +3025,7 @@ snapshots:
       - vitest
       - vue-eslint-parser
 
-  '@jsse/tsconfig@0.0.3': {}
+  '@jsse/tsconfig@0.1.0': {}
 
   '@microsoft/tsdoc-config@0.17.0':
     dependencies:
