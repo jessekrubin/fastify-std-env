@@ -57,7 +57,7 @@
     "std-env": "^3.7.0"
   },
   "devDependencies": {
-    "@jsse/eslint-config": "^0.1.12",
+    "@jsse/eslint-config": "^0.2.0",
     "@jsse/tsconfig": "^0.1.0",
     "@types/node": "^20.12.8",
     "@vitest/coverage-v8": "^2.0.4",
