@@ -30,6 +30,6 @@
     "verbatimModuleSyntax": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts", "test/**/*.ts"],
-  "exclude": ["./fixtures/**/*.*"]
+  "include": ["src/**/*.ts", "test/**/*.ts", "*.ts"],
+  "exclude": ["./fixtures/**/*.*", "./dist/**/*.*", "./node_modules/**/*.*"]
 }
