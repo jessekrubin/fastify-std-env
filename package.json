@@ -59,7 +59,7 @@
   "devDependencies": {
     "@jsse/eslint-config": "^0.2.1",
     "@jsse/tsconfig": "^0.1.0",
-    "@types/node": "^20.12.8",
+    "@types/node": "^22.3.0",
     "@vitest/coverage-v8": "^2.0.5",
     "eslint": "^9.8.0",
     "fastify": "^4.28.1",
