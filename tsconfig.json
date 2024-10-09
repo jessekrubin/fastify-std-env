@@ -1,4 +1,5 @@
 {
+  "extends": "@jsse/tsconfig",
   "compilerOptions": {
     "target": "ES2022",
     "jsx": "react",

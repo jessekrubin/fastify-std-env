@@ -1,3 +1,4 @@
+import { type FastifyPluginCallback } from "fastify";
 import fp from "fastify-plugin";
 import {
   env,
@@ -30,7 +31,6 @@ import {
   runtime,
   runtimeInfo,
 } from "std-env";
-import { type FastifyPluginCallback } from "fastify";
 
 const PLUGIN_NAME = "@jsse/fastify-std-env";
 
@@ -102,6 +102,6 @@ const fastifyStdEnv: FastifyPluginCallback<FastifyStdEnvOptions> = (
 };
 
 export const FastifyStdEnv = fp(fastifyStdEnv, {
-  fastify: "^4.x",
+  fastify: ">4.x",
   name: "@jsse/fastify-std-env",
 });
